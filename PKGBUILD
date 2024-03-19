@@ -2,7 +2,7 @@ pkgdesc="ROS - Controller for a differential drive mobile base."
 url='https://github.com/ros-controls/ros_controllers/wiki'
 
 pkgname='ros-noetic-diff-drive-controller'
-pkgver='0.21.1'
+pkgver='0.21.2'
 arch=('any')
 pkgrel=1
 license=('BSD')
@@ -41,7 +41,7 @@ depends=(
 
 _dir="ros_controllers-${pkgver}/diff_drive_controller"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-controls/ros_controllers/archive/${pkgver}.tar.gz")
-sha256sums=('f3768fe4ee700cc4e1bc69370fbbcf04cc4b31a77989f639dd4091fe9ed35e4a')
+sha256sums=('19e710b944e972ffb7fadb2d149f97bcdc1c2c0cf38a20405c09afced1543ba4')
 
 build() {
     # Use ROS environment variables.
